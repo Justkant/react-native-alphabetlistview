@@ -117,11 +117,7 @@ export default class SectionList extends Component {
         /> :
         <View
           style={styles.item}>
-<<<<<<< HEAD
-          <Text style={textStyle}>{title.atChar(0)}</Text>
-=======
-          <Text style={[textStyle, this.props.fontStyle]}>{title}</Text>
->>>>>>> sunnylqm/master
+          <Text style={[textStyle, this.props.fontStyle]}>{title.atChar(0)}</Text>
         </View>;
 
       //if(index){
